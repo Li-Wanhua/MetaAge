@@ -139,13 +139,12 @@ two requirements.</p>
 <p align="center">
     <img src="images/overview.png" width="90%">
 </p>
-<p>(A) The overall framework of our approach. Given an input image <i><b>x</b></i>, we first obtain the parameters <i><b>µ(x)</b></i> and  <i><b>Σ(x)</b></i>, which
-correspond to the mean and diagonal covariance of a multivariate Gaussian distribution respectively. Then we sample embeddings from
-this distribution with the reparameterization trick. Lastly, the sampled embeddings are sent to a popular regressor for prediction.</p>
-<p>(B) The
-idea of ordinal distribution constraint. For three samples with labels of 20, 30, and 50, we enforce the ordinal relations in the embedding
-space with the symmetrized Kullback-Leibler divergence or 2-Wasserstein distance. In the end, we expect that ordered probabilistic
-embeddings are obtained by applying the ordinal distribution constraint in the latent space.</p>
+  
+<p> The overview of our proposed MetaAge. For an input image <i><b>x</b></i>, we first send it to an age network <i><b>g()</b></i> to obtain the age 
+  features <i><b>g(x)</b></i>. Meanwhile, the image <i><b>x</b></i> is also passed through an identity network <i><b>h()</b></i> to get the identity 
+  features <i><b>h(x)</b></i>. Then our personalized estimator meta-learner generates the set of parameters with different age inputs. 
+  The estimated age is calculated with age features <i><b>g(x)</b></i> and the customized estimator. </p>
+  
 
 <h2>Introduction Video</h2><hr>
 <p align="center">
