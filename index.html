@@ -103,7 +103,13 @@
 <p align="center">
     <img src="images/motivation.png" width="60%">
 </p>
-<p>We consider the problem of age estimation and display age labels next to the images. Deterministic unordered embeddings represent each facial image as a point in the latent space without considering the data uncertainty and the ordinal property. By contrast, probabilistic ordinal embeddings learn a distribution following the ordinal constraint in the embedding space. We see that the highly blurred image exhibits high uncertainty and the ordinal relations are preserved with our probabilistic ordinal embeddings.</p>
+<p>Global-based age
+estimation methods only learn one global estimator for all samples, whereas
+most existing personalized methods require that everyone in the training set
+has enough images and then train a personalized estimator for each person.
+By contrast, our method learns to learn personalized estimators and outputs
+the parameters of an adaptive estimator for each person without the above
+two requirements.</p>
 
 
 <h2>Overview</h2><hr>
