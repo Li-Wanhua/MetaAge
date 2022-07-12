@@ -95,7 +95,30 @@
 
 
 <h2>Abstract</h2><hr>
-<p>Uncertainty is the only certainty there is. Modeling data uncertainty is essential for regression, especially in unconstrained settings. Traditionally the direct regression formulation is considered and the uncertainty is modeled by modifying the output space to a certain family of probabilistic distributions. On the other hand, classification based regression and ranking based solutions are more popular in practice while the direct regression methods suffer from the limited performance. How to model the uncertainty within the present-day technologies for regression remains an open issue. In this paper, we propose to learn probabilistic ordinal embeddings which represent each data as a multivariate Gaussian distribution rather than a deterministic point in the latent space. An ordinal distribution constraint is proposed to exploit the ordinal nature of regression. Our probabilistic ordinal embeddings can be integrated into popular regression approaches and empower them with the ability of uncertainty estimation. Experimental results show that our approach achieves competitive performance.</p>
+<p>Different people age in different ways. Learning
+a personalized age estimator for each person is a promising
+direction for age estimation given that it better models the
+personalization of aging processes. However, most existing personalized
+methods suffer from the lack of large-scale datasets
+due to the high-level requirements: identity labels and enough
+samples for each person to form a long-term aging pattern. In this
+paper, we aim to learn personalized age estimators without the
+above requirements and propose a meta-learning method named
+MetaAge for age estimation. Unlike most existing personalized
+methods that learn the parameters of a personalized estimator for
+each person in the training set, our method learns the mapping
+from identity information to age estimator parameters. Specifically,
+we introduce a personalized estimator meta-learner, which
+takes identity features as the input and outputs the parameters
+of customized estimators. In this way, our method learns the
+meta knowledge without the above requirements and seamlessly
+transfers the learned meta knowledge to the test set, which
+enables us to leverage the existing large-scale age datasets without
+any additional annotations. Extensive experimental results on
+three benchmark datasets including MORPH II, ChaLearn LAP
+2015 and ChaLearn LAP 2016 databases demonstrate that our
+MetaAge significantly boosts the performance of existing personalized
+methods and outperforms the state-of-the-art approaches.</p>
 
 
 <h2>Motivation</h2><hr>
