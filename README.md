@@ -1,4 +1,4 @@
-PAP training code
+MetaAge training code
 =====================================
 ## Requirements
 - torch 1.2.0 or later versions
