@@ -1,5 +1,5 @@
 # MetaAge 
-=====================================
+
 This repository contains PyTorch implementation for the paper "MetaAge: Meta-Learning Personalized Age Estimators" (TIP 2022). 
 
 [[Project Page]](https://li-wanhua.github.io/MetaAge/) [[arXiv]](https://arxiv.org/abs/2207.05288)
