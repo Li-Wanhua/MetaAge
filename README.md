@@ -1,5 +1,9 @@
-MetaAge training code
+# MetaAge 
 =====================================
+This repository contains PyTorch implementation for the paper "MetaAge: Meta-Learning Personalized Age Estimators" (TIP 2022). 
+
+[[Project Page]](https://li-wanhua.github.io/MetaAge/) [[arXiv]](https://arxiv.org/abs/2207.05288)
+
 ## Requirements
 - torch 1.2.0 or later versions
 - python 3.5.2
