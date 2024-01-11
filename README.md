@@ -1,4 +1,12 @@
 # MetaAge: Meta-Learning Personalized Age Estimators
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaage-meta-learning-personalized-age/age-estimation-on-chalearn-2015)](https://paperswithcode.com/sota/age-estimation-on-chalearn-2015?p=metaage-meta-learning-personalized-age)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaage-meta-learning-personalized-age/age-estimation-on-chalearn-2016)](https://paperswithcode.com/sota/age-estimation-on-chalearn-2016?p=metaage-meta-learning-personalized-age)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaage-meta-learning-personalized-age/age-estimation-on-chalearn-2016)](https://paperswithcode.com/sota/age-estimation-on-chalearn-2016?p=metaage-meta-learning-personalized-age)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaage-meta-learning-personalized-age/age-estimation-on-morph-album2-caucasian)](https://paperswithcode.com/sota/age-estimation-on-morph-album2-caucasian?p=metaage-meta-learning-personalized-age)
+
 
 This repository contains PyTorch implementation for the paper "MetaAge: Meta-Learning Personalized Age Estimators" (TIP 2022). 
 
